@@ -18,6 +18,20 @@
     "href": "index.html",
     "title": "Yewon Kang",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "I am a [Your Title] at [Your University]. In this role, I teach courses, conduct research, and am the director of the [Your Lab Name] Lab.\nI’m an interdisciplinary [Your Field] interested in [Your Research Interests]. I love to teach and discuss [Your Teaching Topics]. I’m also passionate about [Your Passions]."
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Yewon Kang",
+    "section": "Interests",
+    "text": "Interests\n\nInterest 1\nInterest 2\nInterest 3"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Yewon Kang",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\n\n\nYour Degree, Your Major\n\n\nYear, Your University\n\n\n\n\n\n\n\n\n\n\n\nYour Second Degree, Your Second Major\n\n\nYear, Your Second University"
   }
 ]

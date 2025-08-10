@@ -1,1 +1,59 @@
 /* css styles */
+/* Layout for the two-column activities section */
+.activities {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* Styles for the education section items */
+.education-element {
+  width: 100%;
+  display: grid;
+  justify-content: start;
+  align-items: center;
+  grid-template-areas:
+    "icon deg"
+    "icon school";
+}
+
+.icon {
+  grid-area: icon;
+  margin-right: 20px;
+  /* Add a color if desired */
+  /* color: #007bff; */
+}
+
+.degree {
+  grid-area: deg;
+  font-weight: 500;
+}
+
+.school {
+  grid-area: school;
+  opacity: 0.6;
+}
+
+/* General styles */
+.pronouns {
+  font-weight: 300;
+  font-size: .55em;
+  line-height: .55em;
+  margin-bottom: 0em;
+}
+
+.position {
+  margin-top: -2.5em;
+  font-weight: 300;
+  font-size: .6em;
+  line-height: 1.1em;
+}
+
+a { 
+  text-decoration: none; 
+}
+
+a:hover {
+  text-decoration: underline; 
+}
