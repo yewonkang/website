@@ -2,9 +2,3 @@
 title: "Research"
 editor: visual
 ---
-
-**#1**
-
-**#2**
-
-**#3**
