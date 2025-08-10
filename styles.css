@@ -1,4 +1,4 @@
-/* 그리드 레이아웃 */
+/* LAYOUT */
 .about-me-container {
   display: grid;
   grid-template-columns: 260px 1fr;
@@ -7,25 +7,25 @@
   padding: 8px 12px;
 }
 
-/* 왼쪽 프로필 */
+/* LEFT */
 .profile-column { text-align: center; }
 .profile-pic {
   width: 200px; height: 200px; object-fit: cover;
   border-radius: 50%; margin-bottom: 12px;
 }
 
-/* 소셜 버튼 스타일 */
+/* SOCIAL BUTTONS */
 .contact {
-  display: flex;           /* 플렉스 박스로 전환 */
-  flex-direction: column;  /* 세로로 쌓기 */
-  align-items: center;     /* 가로 가운데 정렬 */
-  gap: 8px;                /* 버튼 사이 간격 */
+  display: flex;           
+  flex-direction: column; 
+  align-items: center;   
+  gap: 8px;              
 }
 
 .contact a {
-  display: inline-block; /* 버튼이 글자 길이에 맞게 */
-  width: 130px;      /* 최소 너비 */
-  padding: 5px 5px;
+  display: inline-block; 
+  width: 130px;    
+  padding: 2px 2px;
   text-decoration: none;
   border-radius: 6px;
   font-size: 0.95em;
@@ -34,7 +34,7 @@
   transition: background-color 0.2s ease;
 }
 
-/* 서비스별 색상 */
+/* BUTTON COLOR */
 .contact a[href^="mailto"] { background-color: #6c757d; }
 .contact a[href*="twitter"] { background-color: #1DA1F2; }
 .contact a[href*="linkedin"] { background-color: #0077B5; }
@@ -47,27 +47,27 @@
   margin-right: 6px;
 }
 
-/* 오른쪽 본문 */
+/* RIGHT */
 .content-column { line-height: 1.65; }
 
-/* Education 아이템 */
+/* EDUCATION */
 .education-element {
   display: grid; grid-template-columns: auto 1fr;
   gap: 10px; align-items: center; margin: 14px 0;
 }
 .education-element .icon {
-  grid-row: span 2; font-size: 1.5em; color: inherit; /* 파란색 제거 */
+  grid-row: span 2; font-size: 1.5em; color: inherit; 
 }
 .education-element .degree { font-weight: 600; line-height: 1.2; }
 .education-element .school { font-weight: 400; opacity: 0.85; font-size: 0.95em; }
 
-/* 반응형 */
+/* RESPONSIVE */
 @media (max-width: 768px) {
   .about-me-container { grid-template-columns: 1fr; }
   .profile-pic { width: 160px; height: 160px; }
 }
 
-/* 디버그(임시): 레이아웃 확인용. 문제 있으면 주석 해제해서 박스 윤곽 확인
+/* DEBUG
 .profile-column { outline: 1px dashed red; }
 .content-column { outline: 1px dashed green; }
 */

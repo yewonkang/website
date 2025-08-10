@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -115,10 +114,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="about-me-container">
-<!-- 왼쪽 -->
+<!-- LEFT -->
 <div class="profile-column">
 <img src="img/yk.jpg" alt="Yewon Kang" class="profile-pic">
-<h2 class="anchored">
+<h2>
 Yewon Kang
 </h2>
 <div class="contact">
@@ -129,17 +128,17 @@ Yewon Kang
 <a href="https://twitter.com/iamyewonkang" target="_blank"><i class="bi bi-twitter"></i> Twitter</a>
 </p>
 <p>
-<a href="https://linkedin.com/kangyewon" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+<a href="https://www.linkedin.com/in/kangyewon" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
 </p>
 </div>
 </div>
-<!-- 오른쪽 컬럼: 본문 -->
+<!-- RIGHT -->
 <section id="hello" class="level2 content-column">
-<h2 class="anchored" data-anchor-id="hello">Hello</h2>
+<h2 data-anchor-id="hello">Hello</h2>
 <p>I’m a PhD student in Educational Psychology at the University of Minnesota.<br>
 I study digital reading, online inquiry, and how AI can support pre-reading to build knowledge and improve comprehension.</p>
 <section id="interests" class="level3">
-<h3 class="anchored" data-anchor-id="interests">Interests</h3>
+<h3 data-anchor-id="interests">Interests</h3>
 <ul>
 <li>Digital reading comprehension<br>
 </li>
@@ -151,7 +150,7 @@ I study digital reading, online inquiry, and how AI can support pre-reading to b
 </ul>
 </section>
 <section id="education" class="level3">
-<h3 class="anchored" data-anchor-id="education">Education</h3>
+<h3 data-anchor-id="education">Education</h3>
 <div class="education-element">
 <div class="icon">
 <i class="bi bi-mortarboard-fill"></i>
@@ -203,13 +202,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

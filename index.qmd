@@ -4,6 +4,7 @@ format:
   html:
     theme: lux
     css: styles.css
+    anchor-sections: false
     include-in-header:
       text: |
         <!-- Bootstrap Icons for mortarboard etc. -->
@@ -12,7 +13,7 @@ format:
 
 <div class="about-me-container">
 
-<!-- 왼쪽 -->
+<!-- LEFT -->
 <div class="profile-column">
   <img src="img/yk.jpg" alt="Yewon Kang" class="profile-pic">
   <h2>Yewon Kang</h2>
@@ -20,11 +21,11 @@ format:
   <div class="contact">
   <p><a href="mailto:kang0504@umn.edu"><i class="bi bi-envelope-fill"></i> Email</a></p>
   <p><a href="https://twitter.com/iamyewonkang" target="_blank"><i class="bi bi-twitter"></i> Twitter</a></p>
-  <p><a href="https://linkedin.com/kangyewon" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></p>
+  <p><a href="https://www.linkedin.com/in/kangyewon" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></p>
   </div>
 </div>
 
-<!-- 오른쪽 컬럼: 본문 -->
+<!-- RIGHT -->
 <div class="content-column">
 
 ## Hello
