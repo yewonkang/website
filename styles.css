@@ -14,17 +14,17 @@
   border-radius: 50%; margin-bottom: 12px;
 }
 
-/* SOCIAL BUTTONS */
+/* SOCIAL BUTTONS https://icons.getbootstrap.com/*/
 .contact {
   display: flex;
-  justify-content: center;  /* 가운데 정렬 */
-  gap: 16px;                 /* 아이콘 간격 */
+  justify-content: center; 
+  gap: 16px;               
   margin-top: 12px;
 }
 
 .contact a {
-  font-size: 1em;          /* 아이콘 크기 */
-  color: inherit;            /* 기본 글자색 상속 */
+  font-size: 1em;          
+  color: inherit;           
   transition: color 0.2s ease;
 }
 
@@ -39,13 +39,27 @@
 /* RIGHT */
 .content-column { line-height: 1.65; }
 
-/* EDUCATION */
+/* TWO COLUMNS */
+.info-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-top: 20px;
+  align-items: stretch;
+}
+
+/* Education */
 .education-element {
-  display: grid; grid-template-columns: auto 1fr;
-  gap: 10px; align-items: center; margin: 14px 0;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  align-items: center;
+  margin: 14px 0;
 }
 .education-element .icon {
-  grid-row: span 2; font-size: 1.5em; color: inherit; 
+  grid-row: span 2;
+  font-size: 1.3em;
+  color: inherit;
 }
 .education-element .degree { font-weight: 600; line-height: 1.2; }
 .education-element .school { font-weight: 400; opacity: 0.85; font-size: 0.95em; }
@@ -54,8 +68,8 @@
 @media (max-width: 768px) {
   .about-me-container { grid-template-columns: 1fr; }
   .profile-pic { width: 160px; height: 160px; }
+  .info-columns { grid-template-columns: 1fr; }
 }
-
 /* DEBUG
 .profile-column { outline: 1px dashed red; }
 .content-column { outline: 1px dashed green; }

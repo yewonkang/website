@@ -26,18 +26,23 @@ format:
 </div>
 
 <!-- RIGHT -->
-<div class="content-column">
+<div class="content-column" markdown="1">
 
 ## Hello
 I’m a PhD student in Educational Psychology at the University of Minnesota.  
 I study digital reading, online inquiry, and how AI can support pre-reading to build knowledge and improve comprehension.
 
+<div class="info-columns">
+
+<div class="interests">
 ### Interests
 - Digital reading comprehension  
 - AI-supported questioning and self-explanation  
 - Online inquiry and evaluation  
 - Learning from science texts
+</div>
 
+<div class="education">
 ### Education
 <div class="education-element">
   <div class="icon"><i class="bi bi-mortarboard-fill"></i></div>
@@ -45,12 +50,14 @@ I study digital reading, online inquiry, and how AI can support pre-reading to b
   <div class="school">University of Minnesota</div>
 </div>
 
-
 <div class="education-element">
   <div class="icon"><i class="bi bi-mortarboard-fill"></i></div>
   <div class="degree">M.A., Educational Psychology</div>
   <div class="school">Yonsei University</div>
 </div>
+</div>
+
+</div> <!-- /info-columns -->
 
 </div><!-- /content-column -->
 </div><!-- /about-me-container -->
