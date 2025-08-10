@@ -1,59 +1,63 @@
-/* css styles */
-/* Layout for the two-column activities section */
-.activities {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  margin-top: 50px;
+/* 전체 폭을 넓게 사용 */
+:root {
+  --content-max-width: 1200px; /* 필요하면 1300~1400으로 조정 */
 }
 
-/* Styles for the education section items */
+/* 두 컬럼 레이아웃 */
+.about-me-container {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 32px;
+  align-items: start;
+  padding: 8px 12px;
+}
+
+/* 왼쪽 프로필 */
+.profile-column {
+  text-align: center;
+}
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+.name { margin: 8px 0 16px; }
+
+.contact a {
+  display: block;
+  margin: 6px 0;
+  text-decoration: none;
+}
+.contact a:hover { text-decoration: underline; }
+
+/* 오른쪽 본문 */
+.content-column { line-height: 1.65; }
+
+/* Education 아이템 */
 .education-element {
-  width: 100%;
   display: grid;
-  justify-content: start;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
   align-items: center;
-  grid-template-areas:
-    "icon deg"
-    "icon school";
+  margin: 14px 0;
 }
-
-.icon {
-  grid-area: icon;
-  margin-right: 20px;
-  /* Add a color if desired */
-  /* color: #007bff; */
+.education-element .icon {
+  grid-row: span 2;
+  font-size: 1.5em;
+  color: #000; /* 원하면 수정 */
 }
+.education-element .degree { font-weight: 600; line-height: 1.2; }
+.education-element .school { font-weight: 400; opacity: 0.85; font-size: 0.95em; }
 
-.degree {
-  grid-area: deg;
-  font-weight: 500;
-}
-
-.school {
-  grid-area: school;
-  opacity: 0.6;
-}
-
-/* General styles */
-.pronouns {
-  font-weight: 300;
-  font-size: .55em;
-  line-height: .55em;
-  margin-bottom: 0em;
-}
-
-.position {
-  margin-top: -2.5em;
-  font-weight: 300;
-  font-size: .6em;
-  line-height: 1.1em;
-}
-
-a { 
-  text-decoration: none; 
-}
-
-a:hover {
-  text-decoration: underline; 
+/* 반응형: 모바일에서 한 컬럼 */
+@media (max-width: 768px) {
+  .about-me-container {
+    grid-template-columns: 1fr;
+  }
+  .profile-pic {
+    width: 160px;
+    height: 160px;
+  }
 }

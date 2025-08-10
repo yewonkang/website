@@ -1,63 +1,53 @@
 ---
-title: "Yewon Kang"
-image: img/yk.jpg
-toc: false
-about: 
-  template: jolla
-  image-shape: round
-  links:
-    # Available icons: https://icons.getbootstrap.com/
-    - icon: envelope-fill
-      text: Email
-      href: mailto:kang0504@umn.edu
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/iamyewonkang
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com/kangyewon
-    #- text: "{{< ai cv >}} CV"
-      #href: https://linkedin.com/kangyewon
-editor: 
-  markdown: 
-    wrap: 72
+page-layout: full
+format:
+  html:
+    theme: lux
+    css: styles.css
+    include-in-header:
+      text: |
+        <!-- Bootstrap Icons for mortarboard etc. -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 ---
 
-### Hello,
-I am a [Your Title] at [Your University]. In this role, I teach [courses](teaching.html), conduct [research](research.html), and am the director of the [Your Lab Name] Lab.
+<div class="about-me-container">
 
-I'm an interdisciplinary [Your Field] interested in [Your Research Interests]. I love to teach and discuss [Your Teaching Topics]. I'm also passionate about [Your Passions].
-
----
-
-::: {.activities}
-
-::: {.interests-col-6}
-## Interests
-
-* Interest 1
-* Interest 2
-* Interest 3
-
-:::
-
-::: {.education-col-6}
-## Education
-
-<div class="education-element">
-<div class="icon"><p>
-<i class="bi bi-mortarboard-fill"></i></p></div>
-<div class="degree">Your Degree, Your Major</div>
-<div class="school">Year, [Your University](https://your-university.com)</div>
-</div>
-<p></p>
-<div class="education-element">
-<div class="icon"><p>
-<i class="bi bi-mortarboard-fill"></i></p></div>
-<div class="degree">Your Second Degree, Your Second Major</div>
-<div class="school">Year, [Your Second University](https://your-second-university.com)</div>
+<!-- 왼쪽 -->
+<div class="profile-column">
+  <img src="img/yk.jpg" alt="Yewon Kang" class="profile-pic">
+  <h2>Yewon Kang</h2>
+  <p><a href="mailto:kang0504@umn.edu"><i class="bi bi-envelope-fill"></i> Email</a></p>
+  <p><a href="https://twitter.com/iamyewonkang" target="_blank"><i class="bi bi-twitter"></i> Twitter</a></p>
+  <p><a href="https://linkedin.com/kangyewon" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></p>
 </div>
 
-:::
+<!-- 오른쪽 컬럼: 본문 -->
+<div class="content-column">
 
-:::
+## Hello
+I’m a PhD student in Educational Psychology at the University of Minnesota.  
+I study digital reading, online inquiry, and how AI can support pre-reading to build knowledge and improve comprehension.
+
+### Interests
+- Digital reading comprehension  
+- AI-supported questioning and self-explanation  
+- Online inquiry and evaluation  
+- Learning from science texts
+
+### Education
+<div class="education-element">
+  <div class="icon"><i class="bi bi-mortarboard-fill"></i></div>
+  <div class="degree">PhD Student, Educational Psychology</div>
+  <div class="school">University of Minnesota</div>
+</div>
+
+
+<div class="education-element">
+  <div class="icon"><i class="bi bi-mortarboard-fill"></i></div>
+  <div class="degree">M.A., Educational Psychology</div>
+  <div class="school">Yonsei University</div>
+</div>
+
+
+</div><!-- /content-column -->
+</div><!-- /about-me-container -->
