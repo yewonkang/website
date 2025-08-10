@@ -16,28 +16,17 @@
 
 /* SOCIAL BUTTONS */
 .contact {
-  display: flex;           
-  flex-direction: column; 
-  align-items: center;   
-  gap: 8px;              
+  display: flex;
+  justify-content: center;  /* 가운데 정렬 */
+  gap: 16px;                 /* 아이콘 간격 */
+  margin-top: 12px;
 }
 
 .contact a {
-  display: inline-block; 
-  width: 130px;    
-  padding: 2px 2px;
-  text-decoration: none;
-  border-radius: 6px;
-  font-size: 0.95em;
-  color: white;
-  font-weight: 500;
-  transition: background-color 0.2s ease;
+  font-size: 1em;          /* 아이콘 크기 */
+  color: inherit;            /* 기본 글자색 상속 */
+  transition: color 0.2s ease;
 }
-
-/* BUTTON COLOR */
-.contact a[href^="mailto"] { background-color: #6c757d; }
-.contact a[href*="twitter"] { background-color: #1DA1F2; }
-.contact a[href*="linkedin"] { background-color: #0077B5; }
 
 .contact a:hover {
   filter: brightness(90%);
