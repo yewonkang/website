@@ -1,9 +1,4 @@
-/* 전체 폭을 넓게 사용 */
-:root {
-  --content-max-width: 1200px; /* 필요하면 1300~1400으로 조정 */
-}
-
-/* 두 컬럼 레이아웃 */
+/* 그리드 레이아웃 */
 .about-me-container {
   display: grid;
   grid-template-columns: 260px 1fr;
@@ -13,51 +8,66 @@
 }
 
 /* 왼쪽 프로필 */
-.profile-column {
-  text-align: center;
-}
+.profile-column { text-align: center; }
 .profile-pic {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 12px;
+  width: 200px; height: 200px; object-fit: cover;
+  border-radius: 50%; margin-bottom: 12px;
 }
-.name { margin: 8px 0 16px; }
+
+/* 소셜 버튼 스타일 */
+.contact {
+  display: flex;           /* 플렉스 박스로 전환 */
+  flex-direction: column;  /* 세로로 쌓기 */
+  align-items: center;     /* 가로 가운데 정렬 */
+  gap: 8px;                /* 버튼 사이 간격 */
+}
 
 .contact a {
-  display: block;
-  margin: 6px 0;
+  display: inline-block; /* 버튼이 글자 길이에 맞게 */
+  width: 130px;      /* 최소 너비 */
+  padding: 5px 5px;
   text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.95em;
+  color: white;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
 }
-.contact a:hover { text-decoration: underline; }
+
+/* 서비스별 색상 */
+.contact a[href^="mailto"] { background-color: #6c757d; }
+.contact a[href*="twitter"] { background-color: #1DA1F2; }
+.contact a[href*="linkedin"] { background-color: #0077B5; }
+
+.contact a:hover {
+  filter: brightness(90%);
+}
+
+.contact a i {
+  margin-right: 6px;
+}
 
 /* 오른쪽 본문 */
 .content-column { line-height: 1.65; }
 
 /* Education 아이템 */
 .education-element {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 10px;
-  align-items: center;
-  margin: 14px 0;
+  display: grid; grid-template-columns: auto 1fr;
+  gap: 10px; align-items: center; margin: 14px 0;
 }
 .education-element .icon {
-  grid-row: span 2;
-  font-size: 1.5em;
-  color: #000; /* 원하면 수정 */
+  grid-row: span 2; font-size: 1.5em; color: inherit; /* 파란색 제거 */
 }
 .education-element .degree { font-weight: 600; line-height: 1.2; }
 .education-element .school { font-weight: 400; opacity: 0.85; font-size: 0.95em; }
 
-/* 반응형: 모바일에서 한 컬럼 */
+/* 반응형 */
 @media (max-width: 768px) {
-  .about-me-container {
-    grid-template-columns: 1fr;
-  }
-  .profile-pic {
-    width: 160px;
-    height: 160px;
-  }
+  .about-me-container { grid-template-columns: 1fr; }
+  .profile-pic { width: 160px; height: 160px; }
 }
+
+/* 디버그(임시): 레이아웃 확인용. 문제 있으면 주석 해제해서 박스 윤곽 확인
+.profile-column { outline: 1px dashed red; }
+.content-column { outline: 1px dashed green; }
+*/

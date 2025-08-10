@@ -16,9 +16,12 @@ format:
 <div class="profile-column">
   <img src="img/yk.jpg" alt="Yewon Kang" class="profile-pic">
   <h2>Yewon Kang</h2>
+  
+  <div class="contact">
   <p><a href="mailto:kang0504@umn.edu"><i class="bi bi-envelope-fill"></i> Email</a></p>
   <p><a href="https://twitter.com/iamyewonkang" target="_blank"><i class="bi bi-twitter"></i> Twitter</a></p>
   <p><a href="https://linkedin.com/kangyewon" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></p>
+  </div>
 </div>
 
 <!-- 오른쪽 컬럼: 본문 -->
@@ -47,7 +50,6 @@ I study digital reading, online inquiry, and how AI can support pre-reading to b
   <div class="degree">M.A., Educational Psychology</div>
   <div class="school">Yonsei University</div>
 </div>
-
 
 </div><!-- /content-column -->
 </div><!-- /about-me-container -->
