@@ -1,9 +1,5 @@
 ---
 title: "About"
-about:
-  template: jolla
-  image-shape: round
-  image-width: 15em
 ---
 
 About this site
