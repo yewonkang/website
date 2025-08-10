@@ -1,11 +1,25 @@
 ---
 title: "Yewon Kang"
+about:
+  # Templates include: jolla, trestles, solana, marquee, or broadside
+  # https://quarto.org/docs/websites/website-about.html
+  template: jolla
+  image: img/yk.jpg
+  links:
+    # Available icons: https://icons.getbootstrap.com/
+    - icon: envelope-fill
+      text: Email
+      href: mailto:kang0504@umn.edu
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/iamyewonkang
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/kangyewon
+    #- text: "{{< ai cv >}} CV"
+      #href: https://linkedin.com/kangyewon
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
