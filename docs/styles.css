@@ -49,20 +49,39 @@
 }
 
 /* Education */
+.education { margin-top: 8px; }
+
 .education-element {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 10px;
-  align-items: center;
-  margin: 14px 0;
+  position: relative;
+  padding-left: 26px;  
+  margin: 6px 0;
 }
-.education-element .icon {
-  grid-row: span 2;
-  font-size: 1.3em;
+
+.education-element p { margin: 0; }
+
+.education-element > .icon {
+  position: absolute;
+  left: 0;
+  top: 0.1em;     
+  font-size: 1.05em;
+  line-height: 1;
   color: inherit;
 }
-.education-element .degree { font-weight: 600; line-height: 1.2; }
-.education-element .school { font-weight: 400; opacity: 0.85; font-size: 0.95em; }
+
+.education-element > .degree,
+.education-element > .school {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.education-element > .degree {
+  font-weight: 600;
+}
+
+.education-element > .school {
+  font-size: 0.95em;
+  opacity: 0.85;
+}
 
 /* RESPONSIVE */
 @media (max-width: 768px) {

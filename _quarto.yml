@@ -8,7 +8,11 @@ website:
     left:
       - href: index.qmd
         text: About
-
+  page-footer:
+    background: dark
+    left: "Yewon Kang © 2025"
+    right: "Built with <a href='https://quarto.org/docs/websites/'>Quarto</a>"
+        
 format:
   html:
     theme: lux

@@ -11,53 +11,81 @@ format:
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 ---
 
-<div class="about-me-container">
-
+::::::::::::::::: about-me-container
 <!-- LEFT -->
-<div class="profile-column">
-  <img src="img/yk.jpg" alt="Yewon Kang" class="profile-pic">
-  <h2>Yewon Kang</h2>
-  
-  <div class="contact">
-  <p><a href="mailto:kang0504@umn.edu"><i class="bi bi-envelope-fill"></i></a></p>
-  <p><a href="https://twitter.com/iamyewonkang" target="_blank"><i class="bi bi-twitter-x"></i> </a></p>
-  <p><a href="https://www.linkedin.com/in/kangyewon" target="_blank"><i class="bi bi-linkedin"></i> </a></p>
-  </div>
-</div>
+
+:::: profile-column
+<img src="img/yk.jpg" alt="Yewon Kang" class="profile-pic"/>
+
+<h2>Yewon Kang</h2>
+
+::: contact
+<p><a href="mailto:kang0504@umn.edu"><i class="bi bi-envelope-fill"></i></a></p>
+
+<p><a href="https://twitter.com/iamyewonkang" target="_blank"><i class="bi bi-twitter-x"></i> </a></p>
+
+<p><a href="https://www.linkedin.com/in/kangyewon" target="_blank"><i class="bi bi-linkedin"></i> </a></p>
+:::
+::::
 
 <!-- RIGHT -->
-<div class="content-column" markdown="1">
 
+:::::::::::::: {.content-column markdown="1"}
 ## Hello
-I’m a PhD student in Educational Psychology at the University of Minnesota.  
-I study digital reading, online inquiry, and how AI can support pre-reading to build knowledge and improve comprehension.
 
-<div class="info-columns">
+I’m a PhD student in Educational Psychology at the University of Minnesota.
 
-<div class="interests">
+I'm interested in reading in online and digital contexts. I'm currently studying how AI can support building knowledge and improving comprehension. I work in the [Reading + Learning Lab](https://edpsych.umn.edu/research/labs/reading-learning), advised by Dr. Panayiota Kendeou.
+
+I'm also the [Instructional Technology Fellow](https://academics.cehd.umn.edu/digital-education/yewon-kang/) for the School of Social Work, where I assist instructors with educational technology tools, enhance accessibility, and help build effective course sites.
+
+::::::::::::: info-columns
+::: interests
 ### Interests
-- Digital reading comprehension  
-- AI-supported questioning and self-explanation  
-- Online inquiry and evaluation  
-- Learning from science texts
-</div>
 
-<div class="education">
+-   Digital reading comprehension\
+-   AI-supported questioning and self-explanation\
+-   Online inquiry and evaluation\
+-   Learning from science texts
+:::
+
+::::::::::: education
 ### Education
-<div class="education-element">
-  <div class="icon"><i class="bi bi-mortarboard-fill"></i></div>
-  <div class="degree">PhD Student, Educational Psychology</div>
-  <div class="school">University of Minnesota</div>
-</div>
 
-<div class="education-element">
-  <div class="icon"><i class="bi bi-mortarboard-fill"></i></div>
-  <div class="degree">M.A., Educational Psychology</div>
-  <div class="school">Yonsei University</div>
-</div>
-</div>
+:::::: education-element
+::: icon
+<i class="bi bi-mortarboard-fill"></i>
+:::
 
-</div> <!-- /info-columns -->
+::: degree
+PhD Student, Educational Psychology
+:::
 
-</div><!-- /content-column -->
-</div><!-- /about-me-container -->
+::: school
+University of Minnesota
+:::
+::::::
+
+:::::: education-element
+::: icon
+<i class="bi bi-mortarboard-fill"></i>
+:::
+
+::: degree
+M.A., Educational Psychology
+:::
+
+::: school
+Yonsei University
+:::
+::::::
+:::::::::::
+:::::::::::::
+
+<!-- /info-columns -->
+::::::::::::::
+
+<!-- /content-column -->
+:::::::::::::::::
+
+<!-- /about-me-container -->
