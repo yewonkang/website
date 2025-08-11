@@ -43,10 +43,9 @@ I'm also the [Instructional Technology Fellow](https://academics.cehd.umn.edu/di
 ::: interests
 ### Interests
 
--   Digital reading comprehension\
--   AI-supported questioning and self-explanation\
--   Online inquiry and evaluation\
--   Learning from science texts
+-   Digital/online reading comprehension\
+-   AI-supported learning\
+-   Learning from texts
 :::
 
 ::::::::::: education
