@@ -35,7 +35,7 @@ format:
 
 I’m a PhD student in Educational Psychology at the University of Minnesota.
 
-I’m fascinated by how people make sense of information in today’s digital world, and how AI can help. In the [Reading + Learning Lab](https://edpsych.umn.edu/research/labs/reading-learning), where I work with Dr. Panayiota Kendeou. I'm currently studying how AI can guide learners to build knowledge and understand complex texts more deeply.
+I’m fascinated by how people make sense of information in today’s digital world, and how AI can help. In the [Reading + Learning Lab](https://edpsych.umn.edu/research/labs/reading-learning), where I work with Dr. Panayiota Kendeou. I'm currently studying how students use AI to build knowledge and better understand complex texts.
 
 Beyond research, I'm the [Instructional Technology Fellow](https://academics.cehd.umn.edu/digital-education/yewon-kang/) for the School of Social Work. I work directly with faculty, guiding them in leveraging technology to enhance teaching and develop accessible, engaging course sites.
 
@@ -71,7 +71,7 @@ University of Minnesota
 :::
 
 ::: degree
-M.A., Educational Psychology
+MA, Educational Psychology
 :::
 
 ::: school
@@ -85,7 +85,7 @@ University of Minnesota
 :::
 
 ::: degree
-B.A. & M.A., Education
+BA & MA, Education
 :::
 
 ::: school
