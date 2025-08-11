@@ -35,17 +35,17 @@ format:
 
 I’m a PhD student in Educational Psychology at the University of Minnesota.
 
-I'm interested in reading in online and digital contexts. I'm currently studying how AI can support building knowledge and improving comprehension. I work in the [Reading + Learning Lab](https://edpsych.umn.edu/research/labs/reading-learning), advised by Dr. Panayiota Kendeou.
+I’m fascinated by how people make sense of information in today’s digital world, and how AI can help. In the [Reading + Learning Lab](https://edpsych.umn.edu/research/labs/reading-learning), where I work with Dr. Panayiota Kendeou. I'm currently studying how AI can guide learners to build knowledge and understand complex texts more deeply.
 
-I'm also the [Instructional Technology Fellow](https://academics.cehd.umn.edu/digital-education/yewon-kang/) for the School of Social Work, where I assist instructors with educational technology tools, enhance accessibility, and help build effective course sites.
+Beyond research, I'm the [Instructional Technology Fellow](https://academics.cehd.umn.edu/digital-education/yewon-kang/) for the School of Social Work. I work directly with faculty, guiding them in leveraging technology to enhance teaching and develop accessible, engaging course sites.
 
 ::::::::::::: info-columns
 ::: interests
 ### Interests
 
--   Digital/online reading comprehension\
+-   Digital and online reading comprehension\
 -   AI-supported learning\
--   Learning from texts
+-   Information and source evaluation
 :::
 
 ::::::::::: education
@@ -75,9 +75,24 @@ M.A., Educational Psychology
 :::
 
 ::: school
+University of Minnesota
+:::
+::::::
+
+:::::: education-element
+::: icon
+<i class="bi bi-mortarboard-fill"></i>
+:::
+
+::: degree
+B.A. & M.A., Education
+:::
+
+::: school
 Yonsei University
 :::
 ::::::
+
 :::::::::::
 :::::::::::::
 
