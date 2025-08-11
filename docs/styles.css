@@ -92,3 +92,15 @@
 .profile-column { outline: 1px dashed red; }
 .content-column { outline: 1px dashed green; }
 */
+
+/* 본문 단락에만 Bold/Italic 적용 */
+p strong {
+  font-weight: 900 !important;
+  color: #000000;
+}
+
+p em {
+  font-style: italic !important;
+  font-weight: 400;
+  color: #444444;
+}

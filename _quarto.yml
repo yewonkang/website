@@ -8,6 +8,7 @@ website:
     left:
       - href: index.qmd
         text: About
+      - research.qmd
   page-footer:
     background: dark
     left: "Yewon Kang © 2025"
